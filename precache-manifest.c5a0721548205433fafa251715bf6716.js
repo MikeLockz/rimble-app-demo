@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/rimble-app-demo/static/js/runtime~main.040bab33.js"
   },
   {
-    "revision": "ce0a3ef117617ec4e151",
-    "url": "/rimble-app-demo/static/js/main.ce0a3ef1.chunk.js"
+    "revision": "64aa29be08a796c4f88f",
+    "url": "/rimble-app-demo/static/js/main.64aa29be.chunk.js"
   },
   {
     "revision": "bffe009e7d734814b734",
     "url": "/rimble-app-demo/static/js/1.bffe009e.chunk.js"
   },
   {
-    "revision": "db5126ce6e6f8364af47d302e25726b9",
+    "revision": "3a17ab7440172a620e395ef267062155",
     "url": "/rimble-app-demo/index.html"
   }
 ];
