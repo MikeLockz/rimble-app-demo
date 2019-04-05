@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Button, Heading } from "rimble-ui";
+import { Box, Flex, Button, Heading, Text } from "rimble-ui";
 import NetworkIndicator from "../utilities/components/NetworkIndicator";
 import AccountOverview from "../utilities/components/AccountOverview";
 
@@ -9,10 +9,21 @@ class Header extends React.Component {
       <Box>
         <Flex alignItems={"center"} justifyContent="flex-end" bg={"white"}>
           <Box mr={4}>
-            <NetworkIndicator
-              currentNetwork={this.props.network.current.id}
-              requiredNetwork={4}
-            />
+            <Flex>
+              <Flex flexDirection={"column"} mr={4}>
+                <Text>Network Indicator with 2 props</Text>
+                <NetworkIndicator
+                  currentNetwork={this.props.network.current.id}
+                  requiredNetwork={4}
+                />
+              </Flex>
+              <Flex flexDirection={"column"}>
+                <Text>Network Indicator with 1 prop</Text>
+                <NetworkIndicator
+                  currentNetwork={this.props.network.current.id}
+                />
+              </Flex>
+            </Flex>
           </Box>
 
           {this.props.account && this.props.accountValidated ? (

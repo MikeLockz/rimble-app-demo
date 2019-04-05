@@ -38,6 +38,14 @@ const NoNetwork = () => {
   );
 };
 
+const OnNetwork = ({ networkName }) => {
+  return (
+    <Flex>
+      <Text mr={2}>{networkName}</Text>
+    </Flex>
+  );
+};
+
 class NetworkIndicator extends React.Component {
   state = {
     isCorrectNetwork: null
@@ -89,16 +97,27 @@ class NetworkIndicator extends React.Component {
         <Text fontSize={1} color={"#a2a2a2"} caps>
           Current Network
         </Text>
-        {this.state.isCorrectNetwork ? (
+        {this.state.isCorrectNetwork && this.props.requiredNetwork ? (
+          // Has requiredNetwork prop
           <RightNetwork
             networkName={this.getNetworkName(this.props.currentNetwork)}
           />
-        ) : this.state.isCorrectNetwork === false ? (
+        ) : this.state.isCorrectNetwork === false &&
+          this.props.requiredNetwork ? (
+          // Has requiredNetwork prop
           <WrongNetwork
             currentNetworkName={this.getNetworkName(this.props.currentNetwork)}
             requiredNetworkName={this.getNetworkName(
               this.props.requiredNetwork
             )}
+          />
+        ) : this.state.isCorrectNetwork === null &&
+          this.props.requiredNetwork ? (
+          // Has requiredNetwork prop
+          <NoNetwork />
+        ) : this.props.currentNetwork ? (
+          <OnNetwork
+            networkName={this.getNetworkName(this.props.currentNetwork)}
           />
         ) : (
           <NoNetwork />
