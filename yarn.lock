@@ -823,10 +823,17 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1":
+"@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1":
   version "7.4.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.2.tgz#f5ab6897320f16decd855eed70b705908a313fe8"
   integrity sha512-7Bl2rALb7HpvXFL7TETNzKSAeBVCPHELzc0C//9FCxN8nsiueWSJBqaF+2oIJScyILStASR/Cx5WMkXGYTiJFA==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@^7.4.2":
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
+  integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -9464,10 +9471,10 @@ rgba-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rimble-ui@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/rimble-ui/-/rimble-ui-0.6.0.tgz#f91fa9c502b23505ab36aa638036ae763baa4395"
-  integrity sha512-ZYay8p1BaeoAP/1r6LNFF69kjYqqK3WyaxyHTcIVQCgDzJ4AgMj46XwwHOxa1HBjG5CejapvE3vAEDDDaWTFQQ==
+rimble-ui@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/rimble-ui/-/rimble-ui-0.6.1.tgz#940cb94f7882c5d7bf9e561757838ba61d428302"
+  integrity sha512-VpD/reu5eM7n7AtoALv1kbhi4rOykApuCgwp2PWbiLzs5+pSPCk4MnYCltkHeAmXmooaQFDD2g03HAxcGl5c9w==
   dependencies:
     "@d8660091/react-popper" "^1.0.4"
     "@svgr/rollup" "^4.1.0"
@@ -9475,7 +9482,7 @@ rimble-ui@^0.6.0:
     polished "^2.3.3"
     qrcode.react "^0.9.2"
     rmdi "^1.0.1"
-    styled-system "^3.1.11"
+    styled-system "^4.1.0"
 
 rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@~2.6.2:
   version "2.6.3"
@@ -10343,13 +10350,13 @@ styled-system@^2.0.0:
   dependencies:
     prop-types "^15.6.0"
 
-styled-system@^3.1.11:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-3.2.1.tgz#491e1e6f88d7ee021f6f49376f12852cde8007cb"
-  integrity sha512-ag0Yp7UeVHHc3t+1uM3jvlljaZYzwqpbJ8hMrFvpaKfUd8xsB9JeQXLwMpEsz8iLx8Lz/+9j0coWFZjmw8MogQ==
+styled-system@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-4.1.0.tgz#e5a58be23b89cf8fb7b181c8e425ab107b166693"
+  integrity sha512-ioIAJ029tRr6eJhiUrE3VZeahN+GBuJHv/jmckkfikY4ej8BaxvIKAaavmjFoqzNsIzr+x5HCpry1ybQYpchtQ==
   dependencies:
-    "@babel/runtime" "^7.1.2"
-    prop-types "^15.6.2"
+    "@babel/runtime" "^7.4.2"
+    prop-types "^15.7.2"
 
 stylehacks@^4.0.0:
   version "4.0.3"
