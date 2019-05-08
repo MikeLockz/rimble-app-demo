@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ThemeProvider, Box, Text, Flex } from "rimble-ui";
 
 import RimbleWeb3 from "./utilities/RimbleWeb3";
+import ConnectionBanner from "@rimble/connection-banner";
 
 import Header from "./components/Header";
 import PrimaryCard from "./components/PrimaryCard";
@@ -60,7 +61,8 @@ class App extends Component {
               connectAndValidateAccount,
               modals,
               network,
-              transaction
+              transaction,
+              web3Fallback
             }) => (
               <Box
                 style={{
@@ -83,6 +85,14 @@ class App extends Component {
                   modals={modals}
                   network={network}
                 />
+
+                <Flex m={3} justifyContent={'center'}>
+                  <ConnectionBanner
+                    currentNetwork={network.current.id}
+                    requiredNetwork={this.config.requiredNetwork}
+                    onWeb3Fallback={web3Fallback}
+                  />
+                </Flex>
 
                 <Flex justifyContent="center" p={4}>
                   <Text width="400px">
