@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/rimble-app-demo/static/js/main.ed1a15bc.chunk.js",
-    "main.js.map": "/rimble-app-demo/static/js/main.ed1a15bc.chunk.js.map",
+    "main.js": "/rimble-app-demo/static/js/main.d0840637.chunk.js",
+    "main.js.map": "/rimble-app-demo/static/js/main.d0840637.chunk.js.map",
     "runtime~main.js": "/rimble-app-demo/static/js/runtime~main.979c2ad8.js",
     "runtime~main.js.map": "/rimble-app-demo/static/js/runtime~main.979c2ad8.js.map",
     "static/js/2.7c2aad84.chunk.js": "/rimble-app-demo/static/js/2.7c2aad84.chunk.js",
     "static/js/2.7c2aad84.chunk.js.map": "/rimble-app-demo/static/js/2.7c2aad84.chunk.js.map",
     "index.html": "/rimble-app-demo/index.html",
-    "precache-manifest.a343ade4ca602f20832e4347f031bd00.js": "/rimble-app-demo/precache-manifest.a343ade4ca602f20832e4347f031bd00.js",
+    "precache-manifest.d1b059f8be9dce5a05266c3904f2c4b9.js": "/rimble-app-demo/precache-manifest.d1b059f8be9dce5a05266c3904f2c4b9.js",
     "service-worker.js": "/rimble-app-demo/service-worker.js"
   }
 }

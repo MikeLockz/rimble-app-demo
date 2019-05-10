@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ccd5f05ee238f120a91f06a4f21e316",
+    "revision": "645e9922518acdd8386554070d529b09",
     "url": "/rimble-app-demo/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rimble-app-demo/static/js/2.7c2aad84.chunk.js"
   },
   {
-    "revision": "fd557d232f9df109eeda",
-    "url": "/rimble-app-demo/static/js/main.ed1a15bc.chunk.js"
+    "revision": "a2a94654eb5316be7ce6",
+    "url": "/rimble-app-demo/static/js/main.d0840637.chunk.js"
   },
   {
     "revision": "103de803e59fd69d869e",
