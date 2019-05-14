@@ -1128,19 +1128,21 @@
   dependencies:
     "@rimble/utils" "^1.0.0"
 
-"@rimble/network-indicator@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@rimble/network-indicator/-/network-indicator-1.0.0.tgz#d99ac161d451789e77fb7da8fadc9720cbf1272a"
-  integrity sha512-qA1/7vKbyxMTuKm/iaMLM8nNRARbB7IQC8G+AAijviq2ug9MRK8MDr1+YMoORpnwA2ctmgqeV4d6yYvFGrYJlA==
+"@rimble/network-indicator@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@rimble/network-indicator/-/network-indicator-1.1.2.tgz#60ca95cdf4feefa0b4ebd98530a20ff0f32335ce"
+  integrity sha512-ged1osI20jsN6NIVGTcOFLQmVHLvsSHx59asQdWfS3WiWLWYwsc7md/kdKmZ6SYazVvvutqNs2fTwJSeWaD0Yw==
   dependencies:
-    "@rimble/utils" "^1.0.0"
+    "@rimble/utils" "^1.1.1"
+    rimble-ui "^0.8.0"
 
-"@rimble/utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.0.0.tgz#cf624008e38d8780c2cf8ea0cea38c37aab88015"
-  integrity sha512-xRqMl67V/tAt9r+PtQDz1eTdKPHggzp+P3HRVGBJX6mxVu5GFSSrE5NclGqlrEQCSWxM0Ejf2L0++l4RD7u0yg==
+"@rimble/utils@^1.0.0", "@rimble/utils@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.1.1.tgz#d6ca5219b6505d4c2c6b9acbba2b56790e5e7323"
+  integrity sha512-4i3QQhThOCicg/Xa/c2lQ8uTifqRO5Ii9/GuoDKJUUM0M9bUZHGkbHNrUEwCuC396CL0oZnXRTC5MnrVt6Uyzg==
   dependencies:
     bowser "^2.2.0"
+    rimble-ui "^0.8.0"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
