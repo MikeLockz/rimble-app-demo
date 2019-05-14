@@ -1121,12 +1121,13 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@rimble/connection-banner@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@rimble/connection-banner/-/connection-banner-1.0.0.tgz#54304b26bc3fb35f8af1f4c9330d9e894c191f7d"
-  integrity sha512-R0W9tOiDEug515z8L0WX4A9eHJHtmcTDQ1CSR/ZML5ZHN4RchWfuZWpqnfl5SB0od2Djp+F9mkCZvkwKgr0pqw==
+"@rimble/connection-banner@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@rimble/connection-banner/-/connection-banner-1.1.2.tgz#81685f48e6192f8f75eb8860880ab5a02a308bea"
+  integrity sha512-InUoyTk5LHN1Whi4syUbso6nz8g8mCysI1Wlmq5XCJc4uqKjNmOWzCs79rhTPyBT2WmWAi9H4pyy6h9SyeQfgA==
   dependencies:
-    "@rimble/utils" "^1.0.0"
+    "@rimble/utils" "^1.1.1"
+    rimble-ui "^0.8.0"
 
 "@rimble/network-indicator@^1.1.2":
   version "1.1.2"
