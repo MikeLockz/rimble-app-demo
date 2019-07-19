@@ -1129,21 +1129,21 @@
     "@rimble/utils" "^1.1.1"
     rimble-ui "^0.8.0"
 
-"@rimble/network-indicator@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@rimble/network-indicator/-/network-indicator-1.1.2.tgz#60ca95cdf4feefa0b4ebd98530a20ff0f32335ce"
-  integrity sha512-ged1osI20jsN6NIVGTcOFLQmVHLvsSHx59asQdWfS3WiWLWYwsc7md/kdKmZ6SYazVvvutqNs2fTwJSeWaD0Yw==
+"@rimble/network-indicator@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@rimble/network-indicator/-/network-indicator-1.2.1.tgz#d5b710bb057e05b71614e2b46a912814a22c9127"
+  integrity sha512-990UADOglYBFyb4W2aV1755un3yBDu9FB+rq2KzG5EtrfY5fsJfJDhxoebkHHOVSWzpTf02Gz0yV7OTGtoUY6w==
   dependencies:
-    "@rimble/utils" "^1.1.1"
-    rimble-ui "^0.8.0"
+    "@rimble/utils" "^1.2.1"
+    rimble-ui "^0.9.1"
 
-"@rimble/utils@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.1.1.tgz#d6ca5219b6505d4c2c6b9acbba2b56790e5e7323"
-  integrity sha512-4i3QQhThOCicg/Xa/c2lQ8uTifqRO5Ii9/GuoDKJUUM0M9bUZHGkbHNrUEwCuC396CL0oZnXRTC5MnrVt6Uyzg==
+"@rimble/utils@^1.1.1", "@rimble/utils@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.2.1.tgz#b078f7e697c248531f6031960ae4540bf0699415"
+  integrity sha512-Hfe1ZOD9Qj+Ac3IeSHZNrzYOMgJM6tvVgZ9eg0qKr11FfRdmbNZ0H7botum5wTMdbSCKpmge7mXHhQbBP8vcJg==
   dependencies:
     bowser "^2.2.0"
-    rimble-ui "^0.8.0"
+    rimble-ui "^0.9.1"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -9091,6 +9091,19 @@ rimble-ui@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/rimble-ui/-/rimble-ui-0.8.0.tgz#1ee103317568f0f99ec4c962556a27c36ba40560"
   integrity sha512-B+ZU/4PK15lX15Hj+KRJhMboaSAlvprUKlDz0kyc6kttYwrUYxuMxNjNfPuDHpev4QOydjk0P8fXS0KckKpCbw==
+  dependencies:
+    "@d8660091/react-popper" "^1.0.4"
+    "@svgr/rollup" "^4.2.0"
+    ethereum-blockies "^0.1.1"
+    polished "^3.2.0"
+    qrcode.react "^0.9.3"
+    rmdi "^1.0.1"
+    styled-system "^4.1.0"
+
+rimble-ui@^0.9.1:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/rimble-ui/-/rimble-ui-0.9.6.tgz#acc0c9a323c1ff3aea4d8b9a3c62fed951369a30"
+  integrity sha512-srSTM8+8UiS2V0r4daX4ecNyAh4vRvChEBXEPWS3BovvXVDmVtQ81OUg7qZgcYdHr7WdRZCNrcg5pnvwortynA==
   dependencies:
     "@d8660091/react-popper" "^1.0.4"
     "@svgr/rollup" "^4.2.0"
