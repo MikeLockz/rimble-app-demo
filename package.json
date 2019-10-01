@@ -2,20 +2,20 @@
   "name": "rimble-app-demo",
   "version": "0.8.0",
   "dependencies": {
-    "@rimble/connection-banner": "^1.1.2",
+    "@rimble/connection-banner": "^1.1.5",
     "@rimble/network-indicator": "^1.1.2",
-    "react": "^16.8.6",
+    "react": "^16.10.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "rimble-ui": "^0.8.0",
-    "styled-components": "^4.2.0",
+    "styled-components": "^4.4.0",
     "web3": "^1.0.0-beta.55"
   },
   "devDependencies": {
-    "enzyme": "^3.9.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react-app-rewire-aliases": "^0.2.0",
     "react-app-rewired": "^2.1.2"
@@ -38,7 +38,7 @@
     "not op_mini all"
   ],
   "resolutions": {
-    "styled-components": "4.2.0"
+    "styled-components": "4.4.0"
   },
   "homepage": "https://consensys.github.io/rimble-app-demo"
 }
