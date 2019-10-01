@@ -1121,12 +1121,12 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@rimble/connection-banner@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@rimble/connection-banner/-/connection-banner-1.1.2.tgz#81685f48e6192f8f75eb8860880ab5a02a308bea"
-  integrity sha512-InUoyTk5LHN1Whi4syUbso6nz8g8mCysI1Wlmq5XCJc4uqKjNmOWzCs79rhTPyBT2WmWAi9H4pyy6h9SyeQfgA==
+"@rimble/connection-banner@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@rimble/connection-banner/-/connection-banner-1.1.5.tgz#4dc2db518cc0ddf96942f63e3652c99cf0dcda4b"
+  integrity sha512-3tGyJw2ReN/LVwOZgzz1IvU0S71WykS0Closdx0+VwwvfPjJz3VgWNxhHECl6+qaozxafkRdlFUY2flqjc6Flw==
   dependencies:
-    "@rimble/utils" "^1.1.1"
+    "@rimble/utils" "^1.1.4"
     rimble-ui "^0.8.0"
 
 "@rimble/network-indicator@^1.1.2":
@@ -1137,10 +1137,10 @@
     "@rimble/utils" "^1.1.1"
     rimble-ui "^0.8.0"
 
-"@rimble/utils@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.1.1.tgz#d6ca5219b6505d4c2c6b9acbba2b56790e5e7323"
-  integrity sha512-4i3QQhThOCicg/Xa/c2lQ8uTifqRO5Ii9/GuoDKJUUM0M9bUZHGkbHNrUEwCuC396CL0oZnXRTC5MnrVt6Uyzg==
+"@rimble/utils@^1.1.1", "@rimble/utils@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@rimble/utils/-/utils-1.1.4.tgz#1e1191b8c9d894be3b2e686d63dab50f5cdb2334"
+  integrity sha512-1yCkfcq3zFRSUkNooKJTMNmm7nhN8bY/SJ2oKDM7enUAkJKroyIC6iR5Izr8hEP3iKdEz/zkTxWg8H9C1ej/Pg==
   dependencies:
     bowser "^2.2.0"
     rimble-ui "^0.8.0"

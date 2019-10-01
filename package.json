@@ -2,7 +2,7 @@
   "name": "rimble-app-demo",
   "version": "0.8.0",
   "dependencies": {
-    "@rimble/connection-banner": "^1.1.2",
+    "@rimble/connection-banner": "^1.1.5",
     "@rimble/network-indicator": "^1.1.2",
     "react": "^16.10.1",
     "react-dom": "^16.8.6",
