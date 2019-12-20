@@ -12,7 +12,7 @@
     "web3": "^1.2.2"
   },
   "devDependencies": {
-    "enzyme": "^3.10.0",
+    "enzyme": "^3.11.0",
 
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
