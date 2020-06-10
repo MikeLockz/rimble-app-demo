@@ -9,7 +9,7 @@
     "react-scripts": "3.2.0",
     "rimble-ui": "^0.8.0",
     "styled-components": "^4.4.0",
-    "web3": "^1.2.2"
+    "web3": "^1.2.9"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
